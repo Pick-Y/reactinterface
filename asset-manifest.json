@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/reactinterface.git/static/css/main.1ceb1bce.chunk.css",
+    "main.js": "/reactinterface.git/static/js/main.ee9311b8.chunk.js",
+    "main.js.map": "/reactinterface.git/static/js/main.ee9311b8.chunk.js.map",
+    "runtime-main.js": "/reactinterface.git/static/js/runtime-main.424fee1a.js",
+    "runtime-main.js.map": "/reactinterface.git/static/js/runtime-main.424fee1a.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/reactinterface.git/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.5fe81ee6.chunk.js": "/reactinterface.git/static/js/2.5fe81ee6.chunk.js",
+    "static/js/2.5fe81ee6.chunk.js.map": "/reactinterface.git/static/js/2.5fe81ee6.chunk.js.map",
+    "index.html": "/reactinterface.git/index.html",
+    "precache-manifest.a80f5d517615b8dc37772fd0d6913a93.js": "/reactinterface.git/precache-manifest.a80f5d517615b8dc37772fd0d6913a93.js",
+    "service-worker.js": "/reactinterface.git/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/reactinterface.git/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.1ceb1bce.chunk.css.map": "/reactinterface.git/static/css/main.1ceb1bce.chunk.css.map",
+    "static/js/2.5fe81ee6.chunk.js.LICENSE.txt": "/reactinterface.git/static/js/2.5fe81ee6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.424fee1a.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.5fe81ee6.chunk.js",
+    "static/css/main.1ceb1bce.chunk.css",
+    "static/js/main.ee9311b8.chunk.js"
+  ]
+}
