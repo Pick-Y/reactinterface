@@ -4,6 +4,7 @@ import ListAppointments from './ListAppointments';
 import SearchAppointments from './SearchAppointments';
 import '../css/App.css';
 import {findIndex, without} from 'lodash';
+import data from './data.json';
 
 class App extends Component {
 
@@ -83,17 +84,17 @@ deleteAppointment(apt) {
 }
 
   componentDidMount(){
-    fetch('./data.json')
-    .then(response => response.json())
-    .then(result => {
-      const apts = result.map(item => {
-        item.aptId = this.state.lastIndex;
-        this.setState({lastIndex: this.state.lastIndex + 1})
-        return item;
-      })
-      this.setState({
-        myAppointments: apts
-      });
+    // fetch('./data.json')
+    // .then(response => response.json())
+    // .then(result => {
+    // });
+    const apts = data.map(item => {
+      item.aptId = this.state.lastIndex;
+      this.setState({lastIndex: this.state.lastIndex + 1})
+      return item;
+    })
+    this.setState({
+      myAppointments: apts
     });
 }
   
